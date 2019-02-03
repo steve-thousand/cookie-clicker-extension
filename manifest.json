@@ -1,0 +1,12 @@
+{
+    "name": "Cookie Clicker Extension",
+    "version": "1.0",
+    "description": "Plays Cookie Clicker",
+    "content_scripts": [
+      {
+        "matches": ["*://orteil.dashnet.org/cookieclicker/*"],
+        "js": ["game-player.js"]
+      }
+    ],
+    "manifest_version": 2
+  }

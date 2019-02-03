@@ -4,7 +4,7 @@
     console.log("Definitely not cheating!™")
 
     // ALWAYS. BE. CLICKING.
-	setInterval(function(){
+    setInterval(function(){
         document.getElementById('bigCookie').click()
     },1)
 }())
